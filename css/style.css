@@ -1,0 +1,113 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #0d1116;
+}
+
+.section-padding{
+    padding: 70px 0;
+}
+
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+.about-img{
+    margin-top: 30px;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+}
+
+.carousel-caption p{
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(37, 11, 0, 0.308);
+    z-index: 1;
+}
+
+.navbar-dark .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/*style de introducción*/
+
+.container-intro{
+    margin: 200px; 
+    text-align: center;
+    color: #fff;
+}
+
+/* Style de la pagina de presentación.html*/
+
+.presentación{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 30px;
+    color: #fff;
+}
+.año{
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 60px;
+    color: #fff;
+}
+
+.sena {
+  height: auto;
+  width: 90px;
+  }
+
+  /* style de la pagina del contenido*/
+
+  .contenido{
+    color: #fff;
+    margin: 200px;
+    font-size: 17px;
+    line-height: 2em;
+  }
+
+  .h1-contenido{
+    color: #0548ff;
+  }
+
+  img{
+    height: 500px;
+    width: 947px;
+  
+  }
+
+  /*style de conclusion*/
+
+.container-conclusion{
+    margin: 200px; 
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+}
+
+h1{
+   text-align: center; 
+}
