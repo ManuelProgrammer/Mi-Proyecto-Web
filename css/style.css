@@ -11,7 +11,7 @@ body{
 }
 
 .carousel-caption{
-    bottom: 200px;
+    bottom: 150px;
     z-index: 2;
 }
 .about-img{
@@ -30,7 +30,7 @@ body{
     width: 70%;
     margin: auto;
     font-size: 18px;
-    line-height: 1.9;
+    line-height: 1.6;
 }
 
 .carousel-inner::before{
@@ -94,7 +94,7 @@ body{
   }
 
   img{
-    height: 500px;
+    height: 600px;
     width: 947px;
   
   }
